@@ -1,0 +1,100 @@
+<html lang="es">
+<cabeza>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</cabeza>
+<body bgcolor="#ffebee">
+<centro>
+        <font size="5" color="black">
+            <center><h2>FORMULARIO</h2></center>
+        </font>
+</centro>
+    <form action="mailto:alondragonzalezcontreras22@cetis80.edu.mx" method="post" enctype="text/plain">
+        <!--Etiqueta fieldset para indicar formulario en secciones-->
+        <fieldset style="border:6px solid #f48fb1 ">
+            <!--Etiqueta leyenda titulo de seccion-->
+            <legend>DATOS PERSONALES</legend>
+            <!--Etiqueta label texto de campo a ingresar-->
+            <label for="">Nombre y Apellido</label>
+            <!--Etiqueta input tipo texto ingreso de datos-->
+            <input name="nombre" type="text" size="80">
+            <br><br>
+            <label for="">Sexo:</label>
+            <select name="sexo" size="2">
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                <br><br>
+             </select>
+        </fieldset>
+</conjunto de campos>
+            <br><br>
+            <fieldset style="border:4px solid #f48fb1">
+            <legend>DATOS ADICIONALES</legend>
+            <br>
+            <label for="">Email:</label>
+            <input name='correo' type='email' size="70"><br><br>
+            <label for="name">Celular (10 dogitos):</label>
+            <input name='name' type='name' size="20">
+<nombre de entrada='name' type="texto" requerido minlength="10" maxlength="10" size="10"><br><br>
+            </fieldset>
+            <br><br>
+</conjunto de campos>
+        <fieldset style="border:4px solid #f48fb1 ">
+            <legend>ESCOLARIDAD</legend>
+            <label for="">Grado máximo de estudio:</label>
+            <select name="" id="dino-select">
+                <optgroup label="Estudios Universidad">
+                    <option>Doctorado</option>
+                    <opción>Máster</opción>
+                    <option>Licenciatura</option>
+                </optgroud>
+                <optgroup label="Ciclo Formativo">
+                    <option value="">Grado Bachiller</option>
+                <option value="">Grado Básico</option>
+            </optgroud>
+        </select>
+        </conjunto de campos>
+        </fieldset>
+                
+            <br><br>
+        <fieldset style="border: 4px solid #f48fb1 ">
+            <legend>CUESTIONARIO A DEZTROZAR EL BINGO</legend>
+            <br><br>
+            <label for="">1.¿Que te parecio?</label>
+            <br><br>
+            <input type="checkbox" name="os" value="cien">Bien
+            <input type="checkbox" name="os" value="doscientos"> Masomenos
+            <br><br>
+            <label for="">2.¿Te gusto?</label>
+            <br><br>
+            <input type="checkbox" name="os" value="Si">Si
+            <input type="checkbox" name="os" value="No">No
+            </label>
+            <br><br>
+            <label for="">3.¿Se te hizo interesante?</label>
+            <br><br>
+            <input type="checkbox" name="os" value="cien">Si
+            <input type="checkbox" name="os" value="doscientos">No
+            <input type="checkbox" name="os" value="trescientos">Tal vez
+            <br><br>
+            <label for="">4.¿Que te parecio el bingo?</label>
+            <br><br>
+            <input type="checkbox" name="os" value="recolección">Interesante
+            <input type="checkbox" name="os" value="tecnologia">Creativo
+            <input type="checkbox" name="os" value="campaña">Util
+            <br><br>
+            <label for="">5.Dejanos un comentario</label>
+            <br><br>
+            <form action="#" method="post">
+                <div class="textarea-container">
+                    <label for="comentario">Comentario:</label>
+                    <br>
+                    <textarea id="comentario" name="comentario" placeholder="Escribe tu comentario aquí..."></textarea>
+                </div>
+            </form>
+</conjunto de campos>
+<br><br>
+        <input type="submit" value="enviar">
+</formulario>
+</body>
+</html>
